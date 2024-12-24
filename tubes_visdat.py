@@ -16,9 +16,9 @@ st.title("Interactive Basketball Player Stats Visualization")
 
 # Navigation Bar
 selected = option_menu(
-    menu_title=None,  # Title untuk navbar
-    options=["Data Pemain", "Visualisasi Statistik", "Analisis Tinggi & Berat"],  # Halaman
-    icons=["table", "bar-chart", "activity"],  # Ikon untuk setiap halaman
+    menu_title=None, 
+    options=["Data Pemain", "Visualisasi Statistik", "Analisis Tinggi & Berat"], 
+    icons=["table", "bar-chart", "activity"],  
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
