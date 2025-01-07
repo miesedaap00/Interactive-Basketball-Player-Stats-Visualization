@@ -14,6 +14,9 @@ df = load_data()
 # Judul aplikasi
 st.title("Interactive Basketball Player Stats Visualization")
 
+if 'Unnamed: 0' in df.columns:
+    df = df.drop(columns=['Unnamed: 0'])
+
 # Navigation Bar
 selected = option_menu(
     menu_title=None, 
